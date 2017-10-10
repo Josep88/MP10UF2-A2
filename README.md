@@ -1,2 +1,8 @@
-# MP10UF2-A2
-MP10-UF2 Activitat 2 - Configuració MySQL (I)
+![logo](https://raw.githubusercontent.com/Josep88/MP10UF2-A2/master/img/P1.png)  
+  
+# TASQUES DE CONFIGURACIÓ i COMPROVACIÓ DE LOGS  
+  
+# CONFIGURACIÓ DEL SERVIDOR PERCONA SERVER PER REALITZAR CONNEXIONS SEGURES SOBRE SSL  
+
+
+

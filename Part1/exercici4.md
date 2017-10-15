@@ -13,8 +13,10 @@ No es pot modificar des d'aquí, es de tan sols lectura.
 ## També canvia el destí de log general a una taula (paràmetre log_output). Quines són les sentències que has utilitzat? A quina taula registres els logs general?  
 
 > ![44]()  
+
 Els logs generals es registren a la taula _mysql.general_log_.  
 Aquí es pot veure l'estructura de la taula:  
+
 > ![45]()
 
 ***

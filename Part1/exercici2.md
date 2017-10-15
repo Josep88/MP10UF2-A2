@@ -3,3 +3,6 @@
 Amb la comanda:  
 > mysql -se "SHOW VARIABLES" | grep -e log_error -e general_log -e slow_query_log -e log_bin  
 > ![20]()  
+
+***
+[Torna enrere](https://github.com/Josep88/MP10UF2-A2)

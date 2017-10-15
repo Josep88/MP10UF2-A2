@@ -1,4 +1,4 @@
-## 4. Activa la els logs en temps d'execució mitjançant la sentència SET GLOBAL. 
+## 4. Activa els logs en temps d'execució mitjançant la sentència SET GLOBAL. 
 
 Log general:  
 > ![41]()

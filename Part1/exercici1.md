@@ -9,7 +9,10 @@ Per comprovar-ho amb la comanda:
 
 ### Activa si no ho estan i indica les configuracions necessàries per activar-los. Indica les rutes dels fitxer de log de Binary, Slow Query i General. Quins paràmetres has modificat?
 
+Per activar els altres logs hi ha que afegir a la configuració:  
+> ![2]()
 
+Per a que funcioni tot, hi ha que donar permisos al usuari mysql d'escriptura als fitxers de log.
 
 ***
 [Torna enrere](https://github.com/Josep88/MP10UF2-A2)

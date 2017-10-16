@@ -12,6 +12,8 @@
   
 ## CONFIGURACIÓ DEL SERVIDOR PERCONA SERVER PER REALITZAR CONNEXIONS SEGURES SOBRE SSL  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Exercici](https://github.com/Josep88/MP10UF2-A2/blob/master/Part2/exercici.md) 
-
-
+  
+***  
+  
+&nbsp;[Webgrafia](https://github.com/Josep88/MP10UF2-A2/blob/master/webgrafia.md) 
 

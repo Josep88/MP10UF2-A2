@@ -12,12 +12,14 @@ Per comprovar-ho amb la comanda:
 Per activar els altres logs hi ha que afegir a la configuració:  
 > ![12](https://raw.githubusercontent.com/Josep88/MP10UF2-A2/master/img/12b.PNG)
 
-Per a que funcioni tot, hi ha que donar permisos al usuari mysql d'escriptura als fitxers de log:
+Per a que funcioni tot, hi ha que donar permisos al usuari mysql als fitxers de log:
 > chown mysql:mysql /var/log/mysql/mysql-gen.log  
 > chmod g+w /var/log/mysql/mysql-gen.log
 
 També hi ha que obrir el SELinux per a que agafi el fitxer de log general, per això hi ha que modificar el fitxer /etc/selinux/config  
-> ![13](https://raw.githubusercontent.com/Josep88/MP10UF2-A2/master/img/13.PNG)
+> ![13](https://raw.githubusercontent.com/Josep88/MP10UF2-A2/master/img/13.PNG)  
+  
+Es posa en mode permissive i ja ens agafarà el fitxer del log general.  
 
 ***
 [Torna enrere](https://github.com/Josep88/MP10UF2-A2)

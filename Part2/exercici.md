@@ -41,14 +41,14 @@ També tenim que convertir la clau generada pel client a RSA:
 > ![11](https://raw.githubusercontent.com/Josep88/MP10UF2-A2/master/img/11b.PNG)  
 
 I per últim, hi ha que crear un certificat pel client:  
-> ![12](https://raw.githubusercontent.com/Josep88/MP10UF2-A2/master/img/12b.PNG)  
+> ![12](https://raw.githubusercontent.com/Josep88/MP10UF2-A2/master/img/12b2.PNG)  
 
 Ara tenim que transferir els fitxers creats: _ca-cert.pem_, _client-cert.pem_ i _client-key-pem_ a on s’hagi d’executar el client de MySQL.  
 Amb aquesta comanda pots fer la connexió:  
 > mysql --ssl-ca=ca-cert.pem --ssl-cert=client-cert.pem --ssl-key=client-key.pem -h <mysql-server-ip-address> -u ssluser -p  
 
 Si fas la connexió per mitja de SSL, fent un _status;_ t’ha de donar una clau _cipher_:  
-> ![13](https://raw.githubusercontent.com/Josep88/MP10UF2-A2/master/img/13b.PNG)  
+> ![13](https://raw.githubusercontent.com/Josep88/MP10UF2-A2/master/img/13b2.PNG)  
 
 
 ***
